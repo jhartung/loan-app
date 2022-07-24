@@ -1,19 +1,21 @@
 /*
 ============================================
-; Title: Assignment 8.3 - Capstone Build
+; Title: Assignment 9.2 - Capstone
 ; Author: Professor Krasso
-; Date: 17 July 2022
+; Date: 24 July 2022
 ; Modified By: Joel Hartung
-; Title: Assignment 8.3 - Capstone Build
+; Title: Assignment 9.2 - Capstone
 ;===========================================
 */
 
+// import statements
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { LoanCalculatorComponent } from './loan-calculator/loan-calculator.component';
 
+// routes
 const routes: Routes = [
   {
     path: '',
@@ -30,7 +32,7 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
-  },
+  }
 ];
 
 @NgModule({

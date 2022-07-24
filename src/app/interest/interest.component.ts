@@ -8,14 +8,16 @@
 ;===========================================
 */
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  selector: 'app-interest',
+  templateUrl: './interest.component.html',
+  styleUrls: ['./interest.component.css']
 })
-export class AboutComponent implements OnInit {
+export class InterestComponent implements OnInit {
+
+  @Input() interest: number;
 
   constructor() { }
 

@@ -1,24 +1,19 @@
 <!--
 ============================================
-; Title: Assignment 8.3 - Capstone Build
+; Title: Assignment 9.2 - Capstone
 ; Author: Professor Krasso
-; Date: 17 July 2022
+; Date: 24 July 2022
 ; Modified By: Joel Hartung
-; Title: Assignment 8.3 - Capstone Build
+; Title: Assignment 9.2 - Capstone
 ;===========================================
 -->
 
 <!-- using material design for toolbars and flex layout -->
-<mat-toolbar class="toolbar">
+<mat-toolbar class="toolbar" style="background-color:#0e1a40">
   <mat-toolbar-row>
-    <!--
-    <div class="logo">
-      <img src="./assets/in-n-out-books-logo.png" height="80" />
-    </div>
-  -->
-    <div style="width: 80%">
+    <div style="width: 90%">
       <div fxLayout="row wrap" fxLayoutAlign="end start">
-        <button mat-button routerLink="/loan-calculator">Loan Calculator</button>
+        <button mat-button routerLink="/loan-calculator">Home</button>
         <button mat-button routerLink="/contact">Contact</button>
         <button mat-button routerLink="/about">About</button>
      </div>
@@ -30,8 +25,8 @@
 <div fxLayout="row wrap">
   <div fxFlex>
     <mat-card class="main-container">
-      <mat-card-title class="blue" style="text-align: center">
-        Loan Calculator App
+      <mat-card-title style="text-align: center; color: #946b2d">
+        {{ assignment }}
       </mat-card-title>
       <br />
       <br />

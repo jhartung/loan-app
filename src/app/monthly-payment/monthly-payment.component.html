@@ -1,0 +1,19 @@
+<!--
+============================================
+; Title: Assignment 9.2 - Capstone
+; Author: Professor Krasso
+; Date: 24 July 2022
+; Modified By: Joel Hartung
+; Title: Assignment 9.2 - Capstone
+;===========================================
+-->
+
+<div class="container">
+  <div style="color: #ffffff;font-size:24px;">
+    Your monthly payment:
+  </div>
+  <div style="font-size: 48px;padding-top:30px;">
+    {{ "$" + (monthlyPayment | number:'1.2-2') }}
+  </div>
+</div>
+<br /><br />
